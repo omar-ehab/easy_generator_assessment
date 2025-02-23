@@ -15,7 +15,7 @@ Follow these steps to set up and run the project:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repository/nestjs-fastify-mongo.git
+git clone https://github.com/omar-ehab/easy_generator_assessment.git
 cd nestjs-fastify-mongo
 ```
 
@@ -55,7 +55,7 @@ npm run start:prod
 Once the server is running, you can access the API documentation (if Swagger is enabled) at:
 
 ```
-http://localhost:3000/docs
+http://localhost:8000/docs
 ```
 
 ## Authentication Flow

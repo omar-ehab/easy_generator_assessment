@@ -1,39 +1,33 @@
-# easy_generator
+# Easy Generator Assessment (Vuejs)
 
-This template should help get you started developing with Vue 3 in Vite.
+## 🚀 Getting Started
 
-## Recommended IDE Setup
+Follow these steps to set up and run the project on your local machine.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### 1️⃣ Prerequisites
 
-## Type Support for `.vue` Imports in TS
+Ensure you have the following installed:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- [Node.js](https://nodejs.org/) (LTS recommended)
+- [pnpm](https://pnpm.io/) (or `npm`/`yarn`)
 
-## Customize configuration
+### 2️⃣ Installation
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+### 3️⃣ Environment Variables
 
-```sh
+Copy the `.env.example` file and rename it to `.env`:
+
+```bash
+cp .env.example .env
+```
+Then, open the .env file and fill in the required values.
+
+### 4️⃣ Running the Development Server
+
+```bash
 pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
 ```
